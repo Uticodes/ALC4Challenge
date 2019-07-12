@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="alc_4">ALC 4 Phase 1</string>
+    <string name="welcome">Welcome to ALC 4.0</string>
+    <string name="about">About ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="andela">Andela</string>
+    <string name="email">etim.utibe@gmail.com</string>
+    <string name="phone">2348068758613</string>
+
+
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="293dp"
+        android:layout_height="327dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/andela_icon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="304dp"
+        android:fontFamily="@font/voltaire"
+        android:text="Utibe Etim"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/blue"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/track_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/voltaire"
+        android:text="Track"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/android_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/voltaire"
+        android:text="Android"
+        app:layout_constraintBottom_toBottomOf="@+id/track_tv"
+        app:layout_constraintStart_toEndOf="@+id/track_tv"
+        app:layout_constraintTop_toTopOf="@+id/track_tv"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Country_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fontFamily="@font/voltaire"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Country"
+        app:layout_constraintEnd_toEndOf="@+id/track_tv"
+        app:layout_constraintStart_toStartOf="@+id/track_tv"
+        app:layout_constraintTop_toBottomOf="@+id/track_tv" />
+
+    <TextView
+        android:id="@+id/nigeria_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/voltaire"
+        android:text="Nigeria"
+        app:layout_constraintBottom_toBottomOf="@+id/Country_tv"
+        app:layout_constraintStart_toEndOf="@+id/Country_tv"
+        app:layout_constraintTop_toTopOf="@+id/Country_tv"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/email_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/voltaire"
+        android:text="Email"
+        app:layout_constraintEnd_toEndOf="@+id/Country_tv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Country_tv"
+        app:layout_constraintTop_toBottomOf="@+id/Country_tv" />
+
+    <TextView
+        android:id="@+id/mail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/email"
+        android:fontFamily="@font/voltaire"
+        app:layout_constraintBottom_toBottomOf="@+id/email_tv"
+        app:layout_constraintStart_toEndOf="@+id/email_tv"
+        app:layout_constraintTop_toTopOf="@+id/email_tv"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/ph_no_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Phone number"
+        android:fontFamily="@font/voltaire"
+        app:layout_constraintEnd_toEndOf="@+id/email_tv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/email_tv"
+        app:layout_constraintTop_toBottomOf="@+id/email_tv" />
+
+    <TextView
+        android:id="@+id/no_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/phone"
+        android:fontFamily="@font/voltaire"
+        app:layout_constraintBottom_toBottomOf="@+id/ph_no_tv"
+        app:layout_constraintStart_toEndOf="@+id/ph_no_tv"
+        app:layout_constraintTop_toTopOf="@+id/ph_no_tv"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/slack_us_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Slack Username"
+        android:fontFamily="@font/voltaire"
+        app:layout_constraintEnd_toEndOf="@+id/ph_no_tv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ph_no_tv"
+        app:layout_constraintTop_toBottomOf="@+id/ph_no_tv" />
+
+    <TextView
+        android:id="@+id/slack_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="UtibeEtim"
+        android:fontFamily="@font/voltaire"
+        app:layout_constraintBottom_toBottomOf="@+id/slack_us_tv"
+        app:layout_constraintStart_toEndOf="@+id/slack_us_tv"
+        app:layout_constraintTop_toTopOf="@+id/slack_us_tv"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

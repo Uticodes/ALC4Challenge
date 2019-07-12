@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/cairo_semibold</item>
+        <item>@font/chivo_black</item>
+        <item>@font/heebo_medium</item>
+        <item>@font/pt_mono</item>
+        <item>@font/roboto_thin</item>
+        <item>@font/snippet</item>
+        <item>@font/trochut</item>
+        <item>@font/yantramanav</item>
+    </array>
+</resources>
